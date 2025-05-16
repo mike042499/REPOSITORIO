@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+h1{
+    font-family: "Trocchi", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+h2{
+    font-family: "Trocchi", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+h3{
+    font-family: "Trocchi", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+h4{
+    font-family: "Trocchi", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+.text-justify {
+    text-align: justify;
+    font-family: "Trocchi", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.derecha{
+      background-color: #7adaed;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end; /* Alinea el contenido hacia la derecha */
+      padding: 4rem;
+}
+
+.rounded{
+    margin-top: -30px;
+}
+
+.profesion{
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.edad{
+    margin-right: 150px;
+}
