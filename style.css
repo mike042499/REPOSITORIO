@@ -1,26 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
-h1{
-    font-family: "Trocchi", serif;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
+html, body {
+  font-family: "Trocchi", serif;
 }
-
-h2{
-    font-family: "Trocchi", serif;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
-}
-
-h3{
-    font-family: "Trocchi", serif;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
-}
-
-h4{
+h1, h2, h3, h4,h5{
     font-family: "Trocchi", serif;
     font-weight: 700;
     font-style: normal;
@@ -44,19 +26,51 @@ img{
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-end; /* Alinea el contenido hacia la derecha */
-      padding: 4rem;
+      align-items: center; /* Alinea el contenido hacia la derecha */
+      padding: 2rem;
+      text-align: center;
 }
+
+
 
 .rounded{
     margin-top: -30px;
 }
 
 .profesion{
-    margin-top: -100px;
-    margin-bottom: 50px;
+    margin-bottom: 2rem;
 }
 
-.edad{
-    margin-right: 150px;
+.info-personal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#hobi {
+    margin-top: 4rem; /* Ajusta según el espacio que desees */
+}
+
+.card1{
+    background-color: #465358;
+  }
+
+.card2{
+    background-color: #6a7c8a;
+  } 
+
+.card3{
+    background-color: #83a4bc;
+  }
+
+.card4{
+    background-color: #465358;
+  }
+
+.card5{
+    background-color: #6a7c8a;
+  } 
+
+.card6{
+    background-color: #83a4bc;
+  }
