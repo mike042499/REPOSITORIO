@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
 html, body {
-  font-family: "Trocchi", serif;
+  font-family: 'Poppins', sans-serif;;
+  background-color: #03045E;
+  color: #f1faee;
 }
 h1, h2, h3, h4,h5{
     font-family: "Trocchi", serif;
@@ -21,14 +23,15 @@ img{
   }
 
 .derecha{
-      background-color: #7adaed;
-      height: 100vh;
+      background-color: #164b8c;
+      height: 1006px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center; /* Alinea el contenido hacia la derecha */
       padding: 2rem;
       text-align: center;
+      border-left: rgb(9, 77, 180) solid ;
 }
 
 
@@ -52,25 +55,31 @@ img{
 }
 
 .card1{
-    background-color: #465358;
+    background-color: #4a5759;
+    text-align: justify;
   }
 
 .card2{
-    background-color: #6a7c8a;
+    background-color: #4a5759;
+    text-align: justify;
   } 
 
 .card3{
-    background-color: #83a4bc;
+    background-color: #4a5759;
+    text-align: justify;
   }
 
 .card4{
-    background-color: #465358;
+    background-color: #6a7c8a;
+    text-align: justify;
   }
 
 .card5{
     background-color: #6a7c8a;
+    text-align: justify;
   } 
 
 .card6{
-    background-color: #83a4bc;
+    background-color: #6a7c8a;
+    text-align: justify;
   }
